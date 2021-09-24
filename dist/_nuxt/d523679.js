@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{313:function(o,e,r){"use strict";r.r(e),e.default={hero1:"Hi,",hero2:"I'am",hero3:"Yann",hero4:"Web developper",heroContact:"Contact me",header:{home:"Home",projects:"Projects",blog:"Blog",contact:"Contact"},blog:{readMore:"Read more"},footer:"This is an open source project"}}}]);

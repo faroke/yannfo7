@@ -31,7 +31,7 @@
   <Nuxt class="l-main"/>
   <footer >
     <div class="home__social">
-                    <a href="https://github.com/faroke" style="color: grey; margin-right: 20px; margin-top: 4px">{{ $t('footer') }}</a>
+                    <a href="https://github.com/faroke/yannfo7" style="color: grey; margin-right: 20px; margin-top: 4px">{{ $t('footer') }}</a>
                     <a href="https://gitlab.com/faroke" class="home__social-icon"><fa :icon="['fab', 'gitlab']" title="Gitlab profile"/></a>
                     <a href="https://github.com/faroke" class="home__social-icon"><fa :icon="['fab', 'github']" title="Github profile"/></a>
                    <a href="https://www.linkedin.com/in/yann-faussette/" class="home__social-icon"><fa :icon="['fab', 'linkedin']" title="Linkedin profile"/></a>
