@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/it", {data:[{_img:{"/_ipx/f_webp,q_100/hero.png":"\u002F_nuxt\u002Fimage\u002F4e4152.webp"}}],fetch:{},mutations:void 0});
