@@ -3,6 +3,9 @@
 ## Todo
 
 - [ ] Créer une chartre graphique
+- [ ] Création du layout
+  - [ ] Header
+  - [ ] Footer
 - [ ] Création des pages
   - [ ] Home
   - [ ] Works
