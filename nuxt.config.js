@@ -21,8 +21,6 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/css/styles.css',
-    '~/assets/css/transition.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -34,67 +32,15 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
-    // Font Awesome : https://www.npmjs.com/package/@nuxtjs/fontawesome
-    '@nuxtjs/fontawesome',
-    // Nuxt Image : https://image.nuxtjs.org/
-    '@nuxt/image',
-    // Nuxt color mode : https://color-mode.nuxtjs.org/
-    '@nuxtjs/color-mode',
-    // Nuxt Svg : https://www.npmjs.com/package/@nuxtjs/svg
-    '@nuxtjs/svg',
+    // https://go.nuxtjs.dev/tailwindcss
+    '@nuxtjs/tailwindcss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/i18n',
-    '@nuxt/content'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  },
-
-  // More configs: https://i18n.nuxtjs.org/
-
-  i18n: {
-    locales: [
-      {
-        code: 'en',
-        iso: 'en-US',
-        name: 'English',
-        file: 'en-US.js'
-      },
-      {
-        code: 'fr',
-        iso: 'fr-FR',
-        name: 'Français',
-        file: 'fr-FR.js'
-      },
-      {
-        code: 'it',
-        iso: 'it-IT',
-        name: 'Italiano',
-        file: 'it-IT.js'
-      }
-    ],
-    defaultLocale: 'en',
-    lazy: true,
-    langDir: 'lang/',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root'
-    },
-    baseUrl: '/',
-  },
-  fontawesome: {
-    component: 'fa',
-    icons: {
-      solid: true,
-      brands: true
-    }
-  },
-  pageTransition : 'page',
+  }
 }
