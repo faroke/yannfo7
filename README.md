@@ -1,8 +1,6 @@
 # yannfo7 V2
 
 ## Todo
-
-- [ ] Créer une chartre graphique
 - [ ] Création du layout
   - [ ] Header
   - [ ] Footer
@@ -17,8 +15,9 @@
 - [ ] Optimisation SEO
 - [ ] Génération Statique
 
-## Charte graphique
-
+## Colors
+- Title : #059669
+- Background color : F9FAFB
 
 ## Build Setup
 
