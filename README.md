@@ -1,9 +1,9 @@
 # yannfo7 V2
 
 ## Todo
-- [ ] Création du layout
-  - [ ] Header
-  - [ ] Footer
+- [x] Création du layout
+  - [x] Header
+  - [x] Footer
 - [ ] Création des pages
   - [ ] Home
   - [ ] Works

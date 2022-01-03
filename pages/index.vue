@@ -1,4 +1,5 @@
 <template>
+<p>coucou index</p>
 </template>
 
 <script>

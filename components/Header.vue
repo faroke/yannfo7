@@ -72,27 +72,17 @@
           <ul class="divide-y font-sans">
             <li>
               <a href="#" @click="isOpen = false" class="my-4 inline-block"
-                >Home</a
+                >Accueil</a
               >
             </li>
             <li>
               <a href="#" @click="isOpen = false" class="my-4 inline-block"
-                >Services</a
+                >Mon parcours</a
               >
             </li>
             <li>
               <a href="#" @click="isOpen = false" class="my-4 inline-block"
-                >Features</a
-              >
-            </li>
-            <li>
-              <a href="#" @click="isOpen = false" class="my-4 inline-block"
-                >FAQ</a
-              >
-            </li>
-            <li>
-              <a href="#" @click="isOpen = false" class="my-4 inline-block"
-                >Contact</a
+                >Mes projets</a
               >
             </li>
             <li>
@@ -106,37 +96,29 @@
                   font-semibold
                   cta
                   inline-block
-                  bg-blue-500
-                  hover:bg-blue-600
+                  bg-green-600 hover:bg-green-700
                   px-3
                   py-2
                   rounded
                   text-white
                 "
-                >Sign Up</a
+                >Contactez moi</a
               >
-            </li>
+              </li>
           </ul>
-
+          <!--
           <div class="follow">
             <p class="italic font-sans text-sm">follow us:</p>
             <div class="social flex space-x-5 mt-4">
               <a href="#">
-                <svg
-                  aria-hidden="true"
+                <svg  aria-hidden="true"
                   focusable="false"
                   data-prefix="fab"
-                  data-icon="twitter"
+                  data-icon="facebook-f"
                   class="h-5 w-5 fill-current text-gray-600"
                   role="img"
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
-                  ></path>
-                </svg>
+                  viewBox="0 0 320 512"><g fill="none"><path d="M0 18.338C0 8.216 8.474 0 18.92 0h218.16C247.53 0 256 8.216 256 18.338v219.327C256 247.79 247.53 256 237.08 256H18.92C8.475 256 0 247.791 0 237.668V18.335z" fill="#069"/><path d="M77.796 214.238V98.986H39.488v115.252H77.8zM58.65 83.253c13.356 0 21.671-8.85 21.671-19.91-.25-11.312-8.315-19.915-21.417-19.915-13.111 0-21.674 8.603-21.674 19.914 0 11.06 8.312 19.91 21.169 19.91h.248zM99 214.238h38.305v-64.355c0-3.44.25-6.889 1.262-9.346 2.768-6.885 9.071-14.012 19.656-14.012 13.858 0 19.405 10.568 19.405 26.063v61.65h38.304v-66.082c0-35.399-18.896-51.872-44.099-51.872-20.663 0-29.738 11.549-34.78 19.415h.255V98.99H99.002c.5 10.812-.003 115.252-.003 115.252z"/></g></svg>
               </a>
               <a href="#">
                 <svg
@@ -191,6 +173,7 @@
               </a>
             </div>
           </div>
+          -->
         </aside>
     </nav>
   </section>
@@ -200,9 +183,7 @@
     <button  @click="drawer"  class="navbar-burger flex items-center text-gray-400 p-3">
       <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Mobile menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></button>
   </div>
-  <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6"><li><a class="text-sm text-gray-400 hover:text-gray-500" href="#" data-removed="true">Start</a></li>
-    <li class="text-gray-200">
-      <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" data-removed="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
+  <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
     <li><a class="text-sm text-green-600 font-bold" href="#">Accueil</a></li>
     <li class="text-gray-200">
       <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
@@ -210,64 +191,8 @@
     <li class="text-gray-200">
       <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
     <li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Mes projets</a></li>
-    <li class="text-gray-200">
-      <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" data-removed="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
-    <li><a class="text-sm text-gray-400 hover:text-gray-500" href="#" data-removed="true">Testimonials</a></li>
   </ul><a class="hidden lg:inline-block py-2 px-6 bg-white hover:bg-gray-50 text-sm text-green-600 font-bold rounded-l-xl rounded-t-xl transition duration-200" href="#">Contactez moi</a>
-  </nav><div class="bg-gray-50 pt-20 pb-20 radius-for-skewed">
-  <div class="container mx-auto px-4">
-    <div class="flex flex-wrap -mx-4">
-      <div class="w-full lg:w-1/2 px-4 mb-12 md:mb-20 lg:mb-0 flex items-center">
-        <div class="w-full text-center lg:text-left">
-          <div class="max-w-md mx-auto lg:mx-0">
-            <h2 class="mb-3 text-4xl lg:text-5xl font-bold font-heading">
-              <span>Bienvenue, je suis développeur</span>
-              <span class="text-green-600">Web</span>
-            </h2>
-          </div>
-          <div class="max-w-sm mx-auto lg:mx-0">
-            <p class="mb-6 text-gray-400 leading-loose">Je vous accompagnerais dans votre transformation digitale !</p>
-            <div><a class="inline-block mb-3 lg:mb-0 lg:mr-3 w-full lg:w-auto py-2 px-6 leading-loose bg-green-600 hover:bg-green-700 text-white font-semibold rounded-l-xl rounded-t-xl transition duration-200" href="#">Contactez moi</a><a class="inline-block w-full lg:w-auto py-2 px-6 leading-loose font-semibold bg-white hover:bg-gray-50 rounded-l-xl rounded-t-xl transition duration-200" href="#">En voir plus</a></div>
-          </div>
-        </div>
-      </div>
-      <div class="w-full lg:w-1/2 px-4 flex items-center justify-center">
-        <img src="https://static.shuffle.dev/uploads/files/75/75e1a0d8bb5e3dc13a2ef5f65a8109e376c56d97/hero.png" alt=""></div>
-    </div>
-  </div>
-  </div>
-  <div class="mr-for-radius">
-    <svg class="h-8 md:h-12 lg:h-20 w-full text-gray-50" viewBox="0 0 10 10" preserveAspectRatio="none"><polygon fill="currentColor" points="0 0 10 0 0 10"></polygon></svg></div>
-  <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
-    <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-    <nav class="relative flex flex-col py-6 px-6 h-full w-full bg-white border-r overflow-y-auto"><div class="flex items-center mb-8">
-      <a class="mr-auto text-3xl font-bold leading-none" href="#">
-        <img class="h-10" src="atis-assets/logo/atis/atis-mono-black.svg" alt="" width="auto"></a>
-      <button class="navbar-close">
-        <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></button>
-      </div>
-      <div>
-        <ul><li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Start</a></li>
-          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Accueil</a></li>
-          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Mon parcours</a></li>
-          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Mes projets</a></li>
-          <li class="mb-1"><a class="block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded" href="#">Testimonials</a></li>
-        </ul></div>
-      <div class="mt-auto">
-        <div class="pt-6"><a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-l-xl rounded-t-xl" href="#">Sign In</a><a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-green-700 rounded-l-xl rounded-t-xl" href="#">Sign Up</a></div>
-        <p class="my-4 text-xs text-center text-gray-400">
-          <span>© 2020 All rights reserved.</span>
-        </p>
-        <div class="text-center">
-          <a class="inline-block px-1" href="#">
-            <img src="atis-assets/social/facebook.svg" alt=""></a>
-          <a class="inline-block px-1" href="#">
-            <img src="atis-assets/social/twitter.svg" alt=""></a>
-          <a class="inline-block px-1" href="#">
-            <img src="atis-assets/social/instagram.svg" alt=""></a>
-        </div>
-      </div>
-    </nav></div>
+  </nav>
 </section>
 </div>
 </template>
