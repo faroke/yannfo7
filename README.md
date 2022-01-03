@@ -5,10 +5,10 @@
   - [x] Header
   - [x] Footer
 - [ ] Création des pages
-  - [ ] Home
+  - [x] Home
   - [ ] Works
   - [ ] Projects
-  - [ ] Contact
+  - [x] Contact
 - [ ] Optimisation avec Nuxt Image
 - [ ] Gérer les articles en markdown via Nuxt Content
 - [ ] Optimisation de l'accessibilité
