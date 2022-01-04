@@ -1,7 +1,7 @@
 <template>
-<div>
-  <section>
-    <nav >
+  <div>
+    <section>
+      <nav>
         <!-- Dark Background Transition -->
         <transition
           enter-class="opacity-0"
@@ -71,23 +71,23 @@
 
           <ul class="divide-y font-sans">
             <li>
-              <a href="#" @click="isOpen = false" class="my-4 inline-block"
-                >Accueil</a
+              <nuxt-link to="/" @click="isOpen = false" class="my-4 inline-block"
+                >Accueil</nuxt-link
               >
             </li>
             <li>
-              <a href="#" @click="isOpen = false" class="my-4 inline-block"
-                >Mon parcours</a
+              <nuxt-link to="/parcours" @click="isOpen = false" class="my-4 inline-block"
+                >Mon parcours</nuxt-link
               >
             </li>
             <li>
-              <a href="#" @click="isOpen = false" class="my-4 inline-block"
-                >Mes projets</a
+              <nuxt-link to="/projets" @click="isOpen = false" class="my-4 inline-block"
+                >Mes projets</nuxt-link
               >
             </li>
             <li>
-              <a
-                href="#"
+              <nuxt-link
+                to="/contact"
                 @click="isOpen = false"
                 class="
                   my-8
@@ -96,15 +96,16 @@
                   font-semibold
                   cta
                   inline-block
-                  bg-green-600 hover:bg-green-700
+                  bg-green-600
+                  hover:bg-green-700
                   px-3
                   py-2
                   rounded
                   text-white
                 "
-                >Contactez moi</a
+                >Contactez moi</nuxt-link
               >
-              </li>
+            </li>
           </ul>
           <!--
           <div class="follow">
@@ -175,26 +176,107 @@
           </div>
           -->
         </aside>
-    </nav>
-  </section>
-  <section class="skewed-bottom-right"><nav class="relative px-6 py-6 flex justify-between items-center bg-gray-50"><a class="text-3xl font-bold leading-none" href="#">
-  <Tailwind class="h-12"/></a>
-  <div class="lg:hidden">
-    <button  @click="drawer"  class="navbar-burger flex items-center text-gray-400 p-3">
-      <svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Mobile menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></button>
+      </nav>
+    </section>
+    <section class="skewed-bottom-right">
+      <nav
+        class="relative px-6 py-6 flex justify-between items-center bg-gray-50"
+      >
+        <nuxt-link class="text-3xl font-bold leading-none" to="/">
+          <Tailwind class="h-12"
+        /></nuxt-link>
+        <div class="lg:hidden">
+          <button
+            @click="drawer"
+            class="navbar-burger flex items-center text-gray-400 p-3"
+          >
+            <svg
+              class="block h-4 w-4 fill-current"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Mobile menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+          </button>
+        </div>
+        <ul
+          class="
+            hidden
+            absolute
+            top-1/2
+            left-1/2
+            transform
+            -translate-y-1/2 -translate-x-1/2
+            lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6
+          "
+        >
+          <li>
+            <nuxt-link class="text-sm text-green-600 font-bold" to="/">Accueil</nuxt-link>
+          </li>
+          <li class="text-gray-200">
+            <svg
+              class="w-4 h-4 current-fill"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+              ></path>
+            </svg>
+          </li>
+          <li>
+            <nuxt-link class="text-sm text-gray-400 hover:text-gray-500" to="/parcours"
+              >Mon parcours</nuxt-link
+            >
+          </li>
+          <li class="text-gray-200">
+            <svg
+              class="w-4 h-4 current-fill"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+              ></path>
+            </svg>
+          </li>
+          <li>
+            <nuxt-link class="text-sm text-gray-400 hover:text-gray-500" to="/projets"
+              >Mes projets</nuxt-link
+            >
+          </li>
+        </ul>
+        <nuxt-link
+          class="
+            hidden
+            lg:inline-block
+            py-2
+            px-6
+            bg-white
+            hover:bg-gray-50
+            text-sm text-green-600
+            font-bold
+            rounded-l-xl rounded-t-xl
+            transition
+            duration-200
+          "
+          to="/contact"
+          >Contactez moi</nuxt-link
+        >
+      </nav>
+    </section>
   </div>
-  <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
-    <li><a class="text-sm text-green-600 font-bold" href="#">Accueil</a></li>
-    <li class="text-gray-200">
-      <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
-    <li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Mon parcours</a></li>
-    <li class="text-gray-200">
-      <svg class="w-4 h-4 current-fill" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg></li>
-    <li><a class="text-sm text-gray-400 hover:text-gray-500" href="#">Mes projets</a></li>
-  </ul><a class="hidden lg:inline-block py-2 px-6 bg-white hover:bg-gray-50 text-sm text-green-600 font-bold rounded-l-xl rounded-t-xl transition duration-200" href="#">Contactez moi</a>
-  </nav>
-</section>
-</div>
 </template>
 
 <script>

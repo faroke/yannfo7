@@ -6,11 +6,11 @@
   - [x] Footer
 - [ ] Création des pages
   - [x] Home
-  - [ ] Works
+  - [x] Works
   - [ ] Projects
   - [x] Contact
 - [ ] Optimisation avec Nuxt Image
-- [ ] Gérer les articles en markdown via Nuxt Content
+- [x] Gérer les articles en markdown via Nuxt Content
 - [ ] Optimisation de l'accessibilité
 - [ ] Optimisation SEO
 - [ ] Génération Statique
