@@ -54,5 +54,8 @@ export default {
   },
   content: {
     liveEdit: false
+  },
+  router: {
+    linkExactActiveClass: 'text-green-600 font-bold'
   }
 }

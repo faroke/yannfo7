@@ -44,6 +44,7 @@
             v-bind:key="e.title"
             :href="e.url"
             class="mb-6 w-full md:w-1/2 lg:w-1/3 px-3"
+            target="_blank"
             ><div
               class="pb-8 bg-white rounded shadow text-center overflow-hidden"
             >
@@ -80,25 +81,25 @@ export default {
           title: "Développeur Fullstack (RNCP +5)",
           subtitle: "3WA (2022)",
           img: "3wa.png",
-          url: "",
+          url: "https://3wa.fr/formations/formation-developpeur-web/developpeur-full-stack-react-symfony-1-an-alternance/",
         },
         {
           title: "Développeur Fullstack",
           subtitle: "White Rabbit (2020-2021)",
           img: "wr.png",
-          url: "",
+          url: "https://wr.dev/",
         },
         {
           title: "ESABAC Scientifique",
           subtitle: "Lycée Suger (2015-2019)",
           img: "suger.png",
-          url: "",
+          url: "http://suger.fr/",
         },
         {
           title: "Certification Digital Active",
           subtitle: "Google (2016)",
           img: "google.png",
-          url: "",
+          url: "https://learndigital.withgoogle.com/ateliersnumeriques",
         },
       ],
     };

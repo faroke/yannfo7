@@ -7,10 +7,11 @@
 - [ ] Création des pages
   - [x] Home
   - [x] Works
-  - [ ] Projects
+  - [x] Projects
   - [x] Contact
 - [ ] Optimisation avec Nuxt Image
 - [x] Gérer les articles en markdown via Nuxt Content
+- [ ] Transition entre les pages
 - [ ] Optimisation de l'accessibilité
 - [ ] Optimisation SEO
 - [ ] Génération Statique

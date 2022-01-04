@@ -212,7 +212,7 @@
           "
         >
           <li>
-            <nuxt-link class="text-sm text-green-600 font-bold" to="/">Accueil</nuxt-link>
+            <nuxt-link class="text-sm text-gray-400 hover:text-gray-500" to="/">Accueil</nuxt-link>
           </li>
           <li class="text-gray-200">
             <svg
