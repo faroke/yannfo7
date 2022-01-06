@@ -11,21 +11,17 @@ tags:
   - Javascript
 ---
 
-<h3 class="mb-3 text-2xl font-bold font-heading">FullStack Developer </h3>
 <p class="text-gray-500 leading-loose">
-Mes missions en tant que Fullstack developer chez White Rabbit étaient multiples.
-Mon profil autonome et versatile m'a permis de mener à bien ma mission !
-  - Amélioration du Back Office (gestion des prospects)
-  - Modification du Front Office
-  - Création de landing page B2B
-  - Réalisation de diverses fonctionnalités en fonction des maquettes fournies
+Le Bot discord est un projet datant du lycée, réalisé dans le cadre de mon cours d'ISN.
+Ce projet m'a introduit au Javascript à travers NodeJs et à l'utilisation d'API à travers celle de Discord.
 </p> 
-<h3 class="mt-5 mb-3 text-2xl font-bold font-heading">Teacher Assistant </h3>
-<p class="text-gray-500 leading-loose">
-Mon rôle en tant que Teacher Assistant était d'épauler le Main Teacher au quotidien à travers différente tâche :
-- Répondre aux questions des élèves en formation
-- Assister à la réalisation des examens
-- Assister à la correction des exercices
-- Réaliser des cours vidéo
-- Réaliser des cours de rattrapage pour les élèves en difficultés
-</p>
+  <a href="/discordbot.pdf" target="_blank">
+<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+Accéder au PDF
+</button>
+</a>
+  <a href="https://github.com/faroke/Aiirozbot" target="_blank">
+<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+Code source
+</button>
+</a>

@@ -12,21 +12,12 @@ tags:
   - Python
 ---
 
-<h3 class="mb-3 text-2xl font-bold font-heading">FullStack Developer </h3>
 <p class="text-gray-500 leading-loose">
-Mes missions en tant que Fullstack developer chez White Rabbit étaient multiples.
-Mon profil autonome et versatile m'a permis de mener à bien ma mission !
-  - Amélioration du Back Office (gestion des prospects)
-  - Modification du Front Office
-  - Création de landing page B2B
-  - Réalisation de diverses fonctionnalités en fonction des maquettes fournies
+Un projet simple visant a découvert FFMPEG.Le programme récupère les clips les plus aimés sur la plateforme Twitch depuis l'API.
+Il fait ensuite un montage avec FFMPEG et sera publié sur Youtube via leur propre script en python.
 </p> 
-<h3 class="mt-5 mb-3 text-2xl font-bold font-heading">Teacher Assistant </h3>
-<p class="text-gray-500 leading-loose">
-Mon rôle en tant que Teacher Assistant était d'épauler le Main Teacher au quotidien à travers différente tâche :
-- Répondre aux questions des élèves en formation
-- Assister à la réalisation des examens
-- Assister à la correction des exercices
-- Réaliser des cours vidéo
-- Réaliser des cours de rattrapage pour les élèves en difficultés
-</p>
+  <a href="https://github.com/faroke/automontage" target="_blank">
+<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+Code source
+</button>
+</a>

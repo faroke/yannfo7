@@ -21,6 +21,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    "~/assets/css/main.css"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -57,5 +58,10 @@ export default {
   },
   router: {
     linkExactActiveClass: 'text-green-600 font-bold'
+  },
+  //https://dev.to/debs_obrien/page-and-layout-transitions-in-nuxt-js-33f
+  pageTransition: {
+    name: 'my-page',
+    mode: 'out-in'
   }
 }

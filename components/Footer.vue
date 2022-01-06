@@ -28,7 +28,8 @@
                   hover:bg-gray-100
                   rounded
                 "
-                href="#"
+                href="https://www.linkedin.com/in/yann-faussette/"
+                target="_blank"
               >
                 <img class="mx-auto" src="~/assets/linkedin.svg"
               /></a>
@@ -42,7 +43,8 @@
                   hover:bg-gray-100
                   rounded
                 "
-                href="#"
+                href="https://github.com/faroke"
+                target="_blank"
               >
                 <img class="mx-auto" src="~/assets/github.svg"
               /></a>
@@ -55,7 +57,8 @@
                   hover:bg-gray-100
                   rounded
                 "
-                href="#"
+                href="https://gitlab.com/faroke"
+                target="_blank"
               >
                 <img class="mx-auto" src="~/assets/gitlab.svg"
               /></a>
