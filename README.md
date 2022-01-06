@@ -4,17 +4,17 @@
 - [x] Création du layout
   - [x] Header
   - [x] Footer
-- [ ] Création des pages
+- [x] Création des pages
   - [x] Home
   - [x] Works
   - [x] Projects
   - [x] Contact
 - [ ] Optimisation avec Nuxt Image
 - [x] Gérer les articles en markdown via Nuxt Content
-- [ ] Transition entre les pages
+- [x] Transition entre les pages
 - [ ] Optimisation de l'accessibilité
 - [ ] Optimisation SEO
-- [ ] Génération Statique
+- [x] Génération Statique
 
 ## Colors
 - Title : #059669
